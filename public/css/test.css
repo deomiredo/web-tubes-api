@@ -1,0 +1,371 @@
+* {
+  font-family: 'Poppins', sans-serif;
+}
+:root{
+  --primary-color: #008080;
+  --secondary-color: aliceblue;
+  --font-color:black;
+}
+.marque{
+  margin-top: -40px;
+  padding-left: 90px;
+  color: var(--font-color);
+  font-size: 20pt;
+  width: 100%;
+  z-index: -1;
+  white-space: nowrap;
+  background-color: transparent;
+  }
+  .profil{
+    background-color: transparent;
+    }
+    .Home{
+      background-color: transparent;
+    }
+    nav {
+      height: 25px;
+      width: 100%;
+      padding-left: 17.5px;
+      margin-left: -10px;
+      position: relative;
+      margin-top: 10px;
+      text-align: center;
+      color: white;
+      background: #0a808080;
+    }
+  body{
+    background-color: var(--primary-color);
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    height: 0;
+  }
+  .isi1{
+      text-align: center;
+      color: var(--font-color);
+  }
+  .tengah1{
+      height: 150px;
+      margin-top: 10px;
+      float: left;
+      margin-left: 5px;
+  }
+  .news{
+      font-size: 15px;
+      text-align: left;
+      margin-left: 10px;
+  }
+  .berita{
+    width: 1090px;
+    background-color: white;
+    border: 5px solid black;
+    padding: 2px;
+    margin: 5px;
+    position: absolute;
+  }
+  .tengah{
+    padding-top: 40px;
+    margin-top: 17px;
+      width: 100%;
+      height: 500px;
+      text-align: center;
+      left: 20%;
+      background-color: var(--secondary-color);
+  }
+  footer {
+  background-color: var(--primary-color);
+  margin-bottom: -23px;
+  position: relative;
+  height: 40px;
+  width: 100%;
+  text-align: center;
+  clear: both;
+  text-align: center;
+  top: 160%;
+  right: 10px;
+  left: 0;
+  bottom: 0;
+  }
+  .dark-mode {
+    --primary-color:black;
+    --secondary-color:grey;
+    --font-color:white;
+  }
+  header {
+    height: 80px;
+    color: tea;
+  }
+  .pencarian{
+  margin-top: 5px;
+  margin-left: 10px;
+  background: white;
+  height: 20px;
+  border-radius: 40px;
+  padding:10px;
+  }
+  .pencarian:hover > .search-box{
+  width: 100px;
+  padding: 0 6px;
+  }
+  .pencarian:hover > .search-btn{
+  background: white;
+  color: black;
+  float:right;
+  }
+  .search-btn{
+  display: flex;
+  color:  blac;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: white;
+  justify-content: center;
+  align-items: center ;
+  transition: 0.4s;
+  }
+  .search-box{
+  border:none;
+  background: none;
+  outline: none;
+  float: left;
+  color: white;
+  font-size: 16px;
+  transition: 0.4s;
+  width: 0px;
+  }
+  header ul {
+  text-align: center;
+  padding-top: 100px;
+  margin: 0;
+  padding: 0;
+  }
+  body{
+    background-color: var(--primary-color);
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    height: 0;
+  }
+  .logo {
+    width: auto;
+    height: 80%;
+    z-index: 1;
+    position: relative;
+    top: 3px;
+    left: 3px;
+  }
+  .judul {
+    position: relative;
+    top: -70px;
+    text-align: center;
+    color: var(--font-color);
+  }
+  .marque{
+  margin-top: -40px;
+  padding-left: 90px;
+  color: var(--font-color);
+  font-size: 20pt;
+  width: 100%;
+  z-index: -1;
+  white-space: nowrap;
+  background-color: transparent;
+  }
+  .profil{
+  background-color: transparent;
+  }
+  .Home{
+    background-color: transparent;
+  }
+  nav {
+    height: 25px;
+    width: 100%;
+    padding-left: 17.5px;
+    margin-left: -10px;
+    position: relative;
+    margin-top: 10px;
+    text-align: center;
+    color: white;
+    background: #0a808080;
+  }
+  .indexsection {
+    background-color:var(--secondary-color);
+    padding-top: 5%;
+    padding-left: 17.5px;
+    margin-left: -10px;
+    margin-top: 1.4%;
+    padding-bottom: 5%;
+    width: 100%;
+    height: 3000px;
+  }
+  .sectionprofil{
+    margin-top: 1.4%;
+    padding-top: 2%;
+    width: 100%;
+    height: 600px;
+    background-color: var(--secondary-color);
+    }
+  .sectionprofil .tengah{
+    color: black;
+  }
+  .kiri {
+    border-radius: 8px;
+    margin: 0;
+    padding: 0;
+    left: 0;
+    top: 100px;
+    width: 250px;
+    position: fixed;
+    background: rgba(95, 216, 247, 0.7);
+    float: left;
+    height: 530px;
+    text-align: center;
+    overflow: auto;
+  }
+  .kanan {
+  border-radius: 8px;
+    margin: 0;
+    padding: 0;
+    background: rgba(95, 216, 247, 0.7);
+    top: 100px;
+    width: 250px;
+    right: 0;
+    float: right;
+    position: fixed;
+    height: 530px;
+    text-align: center;
+    overflow: hidden;
+  }
+  footer ul{
+  display: flex;
+  text-align: center;
+  }
+  footer ul li{
+  margin-right: 30px;
+  }
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    margin: auto;
+    padding-top: 30px;
+    text-align: center;
+    font-family: arial;
+    background-color: white;
+  }  
+  button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }  
+  button:hover, a:hover {
+    opacity: 0.8;
+  }
+  a {
+    text-decoration: none;
+    font-size: 15px;
+    text-align: center;
+    color: var(--font-color);
+  }
+  .kiri a {
+    margin-top: 70px;
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    background-color: gold;
+    color: black;
+    display: block;
+   
+  }
+  .kiri a:hover {
+    color: red;
+    transition: all 300ms ease-in;
+  }
+  .kanan .teksberita{
+    margin-top: 40px;
+    padding: 20px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 12pt;
+    color: black;
+    display: block;
+  }
+  .kanan a:hover{
+    color: blue;
+  }
+  .kanan img{
+      width: 140px;
+      height: 85px;
+      margin-top: 20px;
+      margin-bottom: -60px;
+  }
+  .theme-switch-wrapper {
+    display: flex;
+    align-items: center;
+    float: right;
+    margin-top: -30px;
+    }
+    
+    .theme-switch-wrapper em {
+    margin-left: 10px;
+    font-size: 1rem;
+    }
+  
+  .theme-switch {
+    display: inline-block;
+    height: 34px;
+    position: relative;
+    width: 60px;
+  }
+  
+  .theme-switch input {
+    display:none;
+  }
+  
+  .slider {
+    background-color: #ccc;
+    bottom: 0;
+    cursor: pointer;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    background-color: #fff;
+    bottom: 4px;
+    content: "";
+    height: 26px;
+    left: 4px;
+    position: absolute;
+    transition: .4s;
+    width: 26px;
+  }
+  
+  input:checked + .slider {
+    background-color: #66bb6a;
+  }
+  
+  input:checked + .slider:before {
+    transform: translateX(26px);
+  }
+  
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+    
+  }
+  .dark-mode {
+  background-color: black;
+  color: white;
+  }
+  
